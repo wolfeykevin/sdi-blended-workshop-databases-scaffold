@@ -1,0 +1,25 @@
+{
+  "name": "sdi-blended-workshop-databases-scaffold",
+  "version": "1.0.0",
+  "description": "For this activity, you will fulfill the following requirements:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alvarado96/sdi-blended-workshop-databases-scaffold.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alvarado96/sdi-blended-workshop-databases-scaffold/issues"
+  },
+  "homepage": "https://github.com/Alvarado96/sdi-blended-workshop-databases-scaffold#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "knex": "^2.1.0",
+    "pg": "^8.7.3"
+  }
+}
