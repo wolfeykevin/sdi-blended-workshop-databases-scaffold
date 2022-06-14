@@ -6,13 +6,13 @@ exports.seed = async function (knex) {
   // Deletes ALL existing entries
   await knex('books').del()
   await knex('books').insert([
-    { id: 1, title: 'IT', pages: 1168, ISBN: '1501182099', published_date: 'September 15, 1986', genre_id: 1, publisher_id: 1, author_id: 1, format_id: 1, synopsis_id: 1, cover_image: 'https://i.pinimg.com/originals/94/a6/a5/94a6a5b32c4f536b5402217a251a82b7.png' },
-    { id: 2, title: 'Grapes of Wrath', pages: 464, ISBN: '0143039431', published_date: 'April 14, 1939', genre_id: 2, publisher_id: 2, author_id: 2, format_id: 2, synopsis_id: 2, cover_image: 'https://upload.wikimedia.org/wikipedia/commons/a/ad/The_Grapes_of_Wrath_%281939_1st_ed_cover%29.jpg' },
-    { id: 3, title: 'Dracula', pages: 756, ISBN: '1435159578', published_date: 'May 26, 1897', genre_id: 1, publisher_id: 3, author_id: 3, format_id: 5, synopsis_id: 6, cover_image: 'https://i.pinimg.com/550x/44/22/c8/4422c82d4b60909d7a0b31d2b1d5073b.jpg' },
-    { id: 4, title: 'Between Two Fires', pages: 432, ISBN: '1937007863', published_date: 'October 2, 2012', genre_id: 1, publisher_id: 4, author_id: 4, format_id: 1, synopsis_id: 4, cover_image: 'https://i.imgur.com/LhQ0hcm.jpg' },
-    { id: 5, title: 'Alice\'s Adventures in Wonderland', pages: 52, ISBN: '9780582534148', published_date: 'June 1865', genre_id: 12, publisher_id: 5, author_id: 5, format_id: 2, synopsis_id: 3, cover_image: 'https://prodimage.images-bn.com/pimages/9781435166240_p2_v3_s550x406.jpg' },
-    { id: 6, title: 'East of Eden', pages: 500, ISBN: '2183049451', published_date: 'April 6, 1955', genre_id: 11, publisher_id: 2, author_id: 2, format_id: 2, synopsis_id: 5, cover_image: 'https://en.wikipedia.org/wiki/East_of_Eden_(novel)#/media/File:East_of_Eden_(1952_1st_ed_dust_jacket).jpg' },
-    { id: 7, title: 'Library at Mount Char', pages: 400, ISBN: '0553418602', published_date: 'June 16, 2015', genre_id: 2, publisher_id: 7, author_id: 7, format_id: 3, synopsis_id: 7, cover_image: 'https://en.wikipedia.org/wiki/File:The_Library_At_Mount_Char_book_cover.jpg' },
+    { id: 1, title: 'IT', pages: 1168, ISBN: '1501182099', published_date: 'September 15, 1986', genre_id: 1, publisher_id: 1, format_id: 1, cover_image: 'https://i.pinimg.com/originals/94/a6/a5/94a6a5b32c4f536b5402217a251a82b7.png' },
+    { id: 2, title: 'Grapes of Wrath', pages: 464, ISBN: '0143039431', published_date: 'April 14, 1939', genre_id: 2, publisher_id: 2, format_id: 2, cover_image: 'https://upload.wikimedia.org/wikipedia/commons/a/ad/The_Grapes_of_Wrath_%281939_1st_ed_cover%29.jpg' },
+    { id: 3, title: 'Dracula', pages: 756, ISBN: '1435159578', published_date: 'May 26, 1897', genre_id: 1, publisher_id: 3, format_id: 5, cover_image: 'https://i.pinimg.com/550x/44/22/c8/4422c82d4b60909d7a0b31d2b1d5073b.jpg' },
+    { id: 4, title: 'Between Two Fires', pages: 432, ISBN: '1937007863', published_date: 'October 2, 2012', genre_id: 1, publisher_id: 4, format_id: 1, cover_image: 'https://i.imgur.com/LhQ0hcm.jpg' },
+    { id: 5, title: 'Alice\'s Adventures in Wonderland', pages: 52, ISBN: '9780582534148', published_date: 'June 1865', genre_id: 12, publisher_id: 5, format_id: 2, cover_image: 'https://prodimage.images-bn.com/pimages/9781435166240_p2_v3_s550x406.jpg' },
+    { id: 6, title: 'East of Eden', pages: 500, ISBN: '2183049451', published_date: 'April 6, 1955', genre_id: 11, publisher_id: 2, format_id: 2, cover_image: 'https://en.wikipedia.org/wiki/East_of_Eden_(novel)#/media/File:East_of_Eden_(1952_1st_ed_dust_jacket).jpg' },
+    { id: 7, title: 'Library at Mount Char', pages: 400, ISBN: '0553418602', published_date: 'June 16, 2015', genre_id: 2, publisher_id: 7, format_id: 3, cover_image: 'https://en.wikipedia.org/wiki/File:The_Library_At_Mount_Char_book_cover.jpg' },
   ]);
 
   await knex('authors').del()

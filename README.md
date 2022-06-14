@@ -10,13 +10,13 @@ Fork & clone this repository
 
 This week's workshop will be more free-form to give you the freedom to create datasets as you see fit. As long as the requirements below are met, your database entries and API endpoints can be comprised of whatever you wish.
 
-- API must contain endpoints that cover all CRUD functionality
+[-] API must contain endpoints that cover all CRUD functionality
 - Must contain parameterized endpoints or endpoints that handle query parameters
 [X] Must include a screenshot or the XML output to your schema design. Feel free to use whichever schema design tool you like, here's a [lightweight tool](https://ondras.zarovi.cz/sql/demo/) you can use:
-    https://i.imgur.com/GUtYFFy.png
+  ##### Click to access ERD diagram:  https://i.imgur.com/GUtYFFy.png
 
 - PostgreSQL database must be maintained and interacted with using Knex.js
-  [X] Must seed initial data into database using Knex
+[X] Must seed initial data into database using Knex
 - Must retrieve data from the database using the join method of Knex
 
 ## Stretch Goals

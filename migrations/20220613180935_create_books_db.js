@@ -11,9 +11,7 @@ exports.up = function (knex) {
     table.string('published_date');
     table.integer('genre_id');
     table.integer('publisher_id');
-    table.integer('author_id');
     table.integer('format_id');
-    table.integer('synopsis_id');
     table.string('cover_image');
   })
 };
